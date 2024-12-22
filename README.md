@@ -5,7 +5,7 @@ This project implements the **Caesar Cipher**, a classic substitution cipher whe
 ## Features
 
 - Encrypts user-input text.
-- Includes a slider to select the shift range (from 0 to 25).
+- Includes a slider to select the shift range (from 0 to 15).
 - Real-time update of the encrypted text.
 - A modern, minimalist design inspired by terminal aesthetics.
 
