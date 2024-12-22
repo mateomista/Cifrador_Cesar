@@ -1,0 +1,78 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background: linear-gradient(135deg, #1c0d3f, #33134c);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+main {
+    background: #2a1e44;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+
+#input-primero,
+#texto-cifrado {
+    width: -webkit-fill-available;
+    background: #1b122b;
+    border: none;
+    
+}
+
+#input-primero {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 10px 0 0;
+    color: white;
+    font-size: 16px;
+}
+
+#texto-cifrado {
+    height: 40px;
+    background: #1b122b;
+    color: #5af78d;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 10px 10px;
+    align-content: end;
+    font-size: 16px;
+
+}
+
+
+.rango {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 80%;
+}
+
+output {
+    margin-left: 10px;
+    color: #ffffff;
+}
